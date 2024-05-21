@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+   margin: 0;
+}
+.notig{
+    display: flex;
+}
+.quadrat{
+    margin: auto;
+}
+
+
+@font-face {
+    font-family: sans;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.googl{
+    width: 281px;
+    height: 48px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: none;
+    align-items: center;
+    color: #ffffff;
+    background-color:#4285f4;
+display: flex;
+
+}
+.img1{
+    width: 43px;
+    height: 43px;
+    border-radius: 2px,0px,0px,2px;
+    margin-right: 50px;
+    background-color: #ffffff;
+}
+.img22{
+    width: 47px;
+    height: 48px;
+    background-color:#ecf2fc;
+    margin-left: 290px;
+    margin-top: -47px;
+    display: flex;
+}
+hr{
+    width: 340px;
+    margin-top: 20px;
+    color: #e5e7eb;
+}
+.place{
+    width: 340px;
+    height: 48px;
+    border: 1px solid #e5e7eb;
+    color: #d1d5db;
+    margin-top: 20px;
+    font-family: sans;
+    text-align: center;
+}
+.img3{
+
+margin-top: -35px;
+margin-left: 15px;
+border-radius: 4px;
+gap: 5px;
+display: flex
+}
+p{
+    font-family: sans;
+}
+.secured{
+    color: #6b7280;
+}
+.pass{
+    margin-top: 25px;
+    color: #6b7280;
+    
+}
+.school{
+    text-decoration: none;
+    font-family: sans;
+}
+.contin{
+    width: 340px;
+    height: 48px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: #724dff;
+    border: none;
+font-family: sans;
+    color: #ffffff;
+}
+.quest{
+    font-size: 0.92rem;
+    margin-top: 15px;
+}
+.hreff{
+    font-family: sans;
+    color: #6d58ba;
+    text-decoration: none;
+
+}
+.cale{
+    width: 469px;
+    height: 832px;
+}
+ 
+
+@media screen and(max-width:px) {
+    .quadrat{
+        width: 312px;
+        height: 363px;
+        gap: 12px;
+    }
+    .cale{
+        display: none;
+    }
+    
+  }  
+     
+  
+
